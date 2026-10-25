@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/splashRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F8F5">
+
+    <ImageView
+        android:id="@+id/ivSplashLogo"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="12dp"
+        android:alpha="0"
+        android:contentDescription="NutriCheck product scanner logo"
+        android:scaleType="fitCenter"
+        android:src="@drawable/nutricheck_splash_logo" />
+
+
+    <View
+        android:id="@+id/scannerBeam"
+        android:layout_width="240dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center"
+        android:alpha="0"
+        android:background="#19B86A"
+        android:translationY="70dp" />
+
+    <TextView
+        android:id="@+id/tvSplashTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:text="NutriCheck"
+        android:textColor="#173F35"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:translationY="200dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="48dp"
+        android:text="Scan smart. Eat better."
+        android:textColor="#64736C"
+        android:textSize="14sp" />
+
+</FrameLayout>

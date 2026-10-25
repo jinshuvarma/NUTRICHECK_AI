@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="DarkPrimaryColor">#388E3C</color>
+    <color name="PrimaryColor">#4CAF50</color>
+    <color name="Text">#FFFFFF</color>
+    <color name="Accent">#607D8B</color>
+    <color name="PrimaryText">#212121</color>
+    <color name="SecondaryText">#757575</color>
+    <color name="nutri_text">#20312A</color>
+    <color name="nutri_forest">#173F35</color>
+    <color name="nutri_green">#78B99A</color>
+    <color name="nutri_mint">#DDF4E7</color>
+    <color name="nutri_background">#F6F8F5</color>
+    <color name="nutri_surface">#FFFFFF</color>
+    <color name="nutri_muted">#64736C</color>
+    <color name="nutri_border">#E0E8E1</color>
+    <color name="nutri_warning">#D99A32</color>
+    <color name="nutri_danger">#C94B4B</color>
+
+    <color name="DividerColoe">#BDBDBD</color>
+    <color name="LightPrimaryColor">#C8E6C9</color>
+</resources>
